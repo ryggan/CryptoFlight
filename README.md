@@ -4,8 +4,8 @@
 
 _The Chinese University of Hong Kong, Spring 2019_
 
-Video walkthrough of the application: YOUTUBE
 Read the tutorial to build your own version: [csci5590.andyafk.com](https://csci5590.andyafk.com)
+
 Or try the app yourself at [cryptoflight.andyafk.com](https://cryptoflight.andyafk.com)
 (MetaMask is required, use the Ropsten testnet)
 
@@ -37,7 +37,7 @@ Now the only thing left is to deploy the contracts to Ropsten instead of your lo
 6. open `client/src/config.js`
 7. replace the address for `cfTokenAddress` on line 2 with the address to CFToken
 8. and replace the address for `cryptoFlightFactoryAddress` on line 2 with the address to CryptoFlightFactory
-9. set the `NODE_ENV` environment variable to `"production"`. How you do this depends on your OS, in Ubuntu you can just a line to `/etc/environment`
+9. set the `NODE_ENV` environment variable to `"production"`. How you do this depends on your OS, in Ubuntu you can just add a line to `/etc/environment`
 10. `cd ..` and `npm start`
 11. navigate to localhost:3000 in your browser
 12. connect the dapp with MetaMask (and make sure it's set to use Ropsten)
