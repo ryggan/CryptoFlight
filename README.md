@@ -6,6 +6,8 @@ _The Chinese University of Hong Kong, Spring 2019_
 
 Read the tutorial to build your own version: [csci5590.andyafk.com](https://csci5590.andyafk.com)
 
+Video walkthrough: [youtu.be/UvvvXHdT3hE](https://youtu.be/UvvvXHdT3hE)
+
 Or try the app yourself at [cryptoflight.andyafk.com](https://cryptoflight.andyafk.com)
 (MetaMask is required, use the Ropsten testnet)
 
