@@ -13,8 +13,7 @@ Or try the app yourself at [cryptoflight.andyafk.com](https://cryptoflight.andya
 
 ### Just tell me how to get up and running
 
-First, make sure you have MetaMask installed in your browser and a local blockchain running on port 7545
-
+First, make sure you have MetaMask installed in your browser and a local Ethereum blockchain running on port 7545
 1. run `npm install` inside CryptoFlight
 2. `cd client` and `npm install` dependencies for the client
 3. `cd ..`
@@ -30,7 +29,6 @@ First, make sure you have MetaMask installed in your browser and a local blockch
 To deploy to Ropsten we will make use of Infura for deploying to the testnet. Go to [infura.io](https://infura.io) and obtain an API-key for the Ropsten network. You will get an endpoint that looks like ropsten.infura.io/v3/\[YOUR_API_KEY\]. Copy this key and add it as the second argument to HDWalletProvider in truffle-config.js (there's a constant defined for it on line 3). You will also need the mnemonic for your ethereum wallet that you will be using to deploy the contracts. There's a constant defined for this on line 4 in the same file. Note that if you plan to build a real project it's safer to put these in a safe place and not directly in the source code. And, never ever push these credentials to github.
 
 Now the only thing left is to deploy the contracts to Ropsten instead of your local testnet. Navigate to the root folder of the project (the same folder as this file is located in) then:
-2
 1. run `npm install` inside CryptoFlight
 2. `cd client` and `npm install` dependencies for the client
 3. `cd ..`
